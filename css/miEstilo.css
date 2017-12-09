@@ -1,8 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
 
-body {
+#bodyContenedor {
 	width: 1000px;
-  	margin-left:  auto;
-	margin-right: auto;
- }
+	margin: 0 auto;
+}
