@@ -1,10 +1,20 @@
 @charset "utf-8";
-#flecha{
-	position:fixed;
+#flechaArriba{
+	position: fixed;
 	z-index: 1;
 	opacity: 0.5;
+	left: calc(50% + 250px);
+	top: 207px;
 }
-#flecha:hover{
+#flechaAbajo{
+	transform: rotate(180deg);
+	position: fixed;
+	z-index: 1;
+	opacity: 0.5;
+	left: calc(50% + 350px);
+	top: 207px;
+}
+.flecha:hover{
 	opacity: 1;
 }
 
@@ -105,9 +115,38 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 	margin: 10px 0;
 	border-radius:10px;
 }
+.seccion>p>b{
+	font-family: trochut, sans-serif;
+	font-size: 50px;
+}
+.parrafoNormal>p>b{
+	font-family: trochut, sans-serif;
+	font-size: 30px;
+}
 .seccion:hover{
 	opacity: 0.9;
 }
+.parrafoNormal{
+	padding: 10px;
+}
+.parrafoNormal p{
+	padding: 10px;
+}
 #Intro{	
 	background-color: rgba(74,24,24,1);
+}
+#footer{	
+	background-color: rgba(74,24,24,1);
+	align-items: center;
+	justify-content: space-between;
+
+}
+#copyrightFooter{
+	margin-left: 30px;	
+}
+#copyrightFooter p{
+	padding: 5px;
+}
+#footer img{
+	padding: 10px;
 }
