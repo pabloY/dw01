@@ -48,13 +48,13 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 
 
 #cabecera{
-	background-color: rgba(28,87,32,1);
 	font-family: fredericka-the-great, sans-serif;
 	margin: 10px 0;
 	border-radius:10px;
 }
 
-#cabecera>div{
+#cabecera #titulo{
+	background-color: rgba(28,87,32,1);
 	height: 110px;
 	align-items: center;
 }
@@ -64,10 +64,14 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 }
 
 #menuPrincipal{
+	background-color: rgba(28,87,32,1);
 	align-items: center;
 	justify-content: flex-end;
 	height: 50px;
 	border-top: thin double #B5B5B5;
+}
+#menuPrincipal:hover{
+		background-color: rgba(87,28,66,0.69);
 }
 #menuPrincipal li{
 	display:inline-block;
@@ -75,7 +79,10 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 	margin: 5px;
 	padding: 10px;
 }
-
+#menuPrincipal li:hover{
+	background-color: darkgrey;
+	color:brown;
+}
 
 
 .seccion{	
