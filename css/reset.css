@@ -1,4 +1,4 @@
-style="width: 1000px; margin: 0 auto"style="width: 1000px; margin: 0 auto"/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -27,9 +27,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	height: auto;
 }
 body {
 	line-height: 1;
+	padding-top: 0px;
 }
 ol, ul {
 	list-style: none;
