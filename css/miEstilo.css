@@ -1,4 +1,13 @@
 @charset "utf-8";
+#flecha{
+	position:fixed;
+	z-index: 1;
+	opacity: 0.5;
+}
+#flecha:hover{
+	opacity: 1;
+}
+
 
 .Columna{
 	display: -webkit-box;
@@ -50,41 +59,44 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 
 
 #cabecera{
-	background-color: rgba(28,87,32,1);
-
 	font-family: fredericka-the-great, sans-serif;
 	margin: 10px 0;
-	border-radius:10px;
 }
 
 #titulo{
+	background-color: rgba(28,87,32,1);
 	height: 120px;
 	align-items: center;
 	justify-content:space-around;
 	font-size: 80px;
-	
+	border-radius: 10px 10px 0 0;
+
 }
 
 
 #menuPrincipal{
+	background-color: rgba(28,87,32,1);
 	align-items:stretch;
 	justify-content: flex-end;
 	height: 50px;
 	border-top: thin double #B5B5B5;
+	border-radius:0 0 10px 10px;
+
 }
 #menuPrincipal:hover{
 	opacity: 0.9;
 }
-#menuPrincipal li{
-	display:inline-block;
+#menuPrincipal a{
 	min-width: 100px;
 	padding: 10px;
 }
-#menuPrincipal li:hover{
+#menuPrincipal a:hover{
 	background-color: rgba(74,24,24,1);
 	padding-right: 50px;
 }
-
+#menuPrincipal a:last-of-type{
+	border-bottom-right-radius: 10px;
+}
 
 
 .seccion{	
