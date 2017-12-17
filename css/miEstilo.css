@@ -98,6 +98,9 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 #menuPrincipal:hover{
 	opacity: 0.9;
 }
+#menuPrincipal>li{
+	
+}
 #menuPrincipal a{
 	min-width: 100px;
 	padding: 10px;
@@ -117,14 +120,15 @@ repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px,
 	margin: 10px 0;
 	border-radius:10px;
 }
-.seccion>p>b{
+h2{
 	font-family: trochut, sans-serif;
 	font-size: 50px;
 }
-.parrafoNormal>p>b{
+h3{
 	font-family: trochut, sans-serif;
 	font-size: 30px;
 }
+
 .seccion:hover{
 	opacity: 0.9;
 }
